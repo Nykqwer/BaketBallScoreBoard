@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            BasketBall ScoreBoard
+        </title>
+        <link rel="stylesheet" href="BSC.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h1>HOME</h1>
+                <button id="home-btn">0</button>
+                <div class="operate">
+                    <button id="home-btn1" onclick="homeBtn1()">+1</button>
+                    <button id="home-btn2" onclick="homeBtn2()">+2</button>
+                    <button id="home-btn3" onclick="homeBtn3()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <button id="guest-btn">0</button>
+                <div class="operate">
+                    <button id="guest-btn1" onclick="guestBtn1()">+1</button>
+                    <button id="guest-btn1" onclick="guestBtn2()">+2</button>
+                    <button id="guest-btn1" onclick="guestBtn3()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container1">
+          
+      
+            <button id="save-btn" onclick="saveScore()">SAVE</button>
+            <p id="home-el">Home Count: </p>
+            <p id="guest-el">Guest Count: </p>
+            <button id="reset-btn" onclick="resetScore()">RESET</button>
+        </div>
+
+        <script src="BSC.js"></script>
+    </body>
+</html>
